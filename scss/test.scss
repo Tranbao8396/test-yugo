@@ -139,10 +139,11 @@
             }
             ol{
                 font-size: 16px;
-                list-style-position: inside;
+                list-style-position: outside;
                 padding-left: 0;               
                 font-weight: bold;
                 padding-bottom: 1px;
+                padding-left: 19px;
                 li{
                     margin-bottom: 8px;
                 }
