@@ -1,3 +1,156 @@
+.header-btn {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 68px; }
+  .header-btn .btn-orange {
+    position: relative;
+    background-color: #d94e09;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 57px;
+    padding-left: 146px;
+    box-shadow: 0.5px 0.866px 0.99px #b3b3b3; }
+    @media (max-width: 562px) {
+      .header-btn .btn-orange {
+        font-size: 20px;
+        padding-left: 100px; } }
+    @media (max-width: 398px) {
+      .header-btn .btn-orange {
+        padding-right: 20px;
+        padding-left: 50px; } }
+    .header-btn .btn-orange:before {
+      content: "";
+      position: absolute;
+      width: 72px;
+      height: 72px;
+      background: url("../images/round-btn.jpg") 0 0 no-repeat;
+      background-size: contain;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      left: 59px; }
+      @media (max-width: 562px) {
+        .header-btn .btn-orange:before {
+          width: 40px;
+          height: 40px; } }
+      @media (max-width: 398px) {
+        .header-btn .btn-orange:before {
+          left: 10px; } }
 
+.white-arrow:after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(45deg, transparent 50%, #fff 50%);
+  transform: rotate(45deg);
+  right: 45px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto; }
+  @media (max-width: 398px) {
+    .white-arrow:after {
+      right: 10px; } }
+
+.content-zone {
+  border-bottom: 1px solid #ddd;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+  padding-bottom: 16px; }
+  @media (max-width: 768px) {
+    .content-zone {
+      margin-left: 10px;
+      margin-right: 10px; } }
+  .content-zone h2 {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px; }
+  .content-zone .text-zone {
+    padding-top: 10px;
+    padding-right: 10px; }
+    @media (max-width: 992px) {
+      .content-zone .text-zone {
+        padding-right: 0px; } }
+    .content-zone .text-zone h3 {
+      font-weight: bold;
+      color: #d94e09;
+      font-size: 20px;
+      padding-left: 18px;
+      margin-bottom: 24px;
+      position: relative; }
+      .content-zone .text-zone h3:before {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 2px;
+        background-color: #000;
+        left: 3px;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto; }
+    .content-zone .text-zone .content-text {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.714;
+      padding-bottom: 17px;
+      text-align: justify; }
+    .content-zone .text-zone .content-list-gr-box {
+      background-color: #f3f3f3;
+      padding-left: 18px;
+      padding-top: 13px;
+      margin-bottom: 29px; }
+      .content-zone .text-zone .content-list-gr-box p {
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 15px;
+        margin-bottom: 8px;
+        position: relative; }
+        .content-zone .text-zone .content-list-gr-box p:before {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: #d94e09;
+          border-radius: 20px;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto; }
+          @media (max-width: 386px) {
+            .content-zone .text-zone .content-list-gr-box p:before {
+              top: 15px; } }
+      .content-zone .text-zone .content-list-gr-box ol {
+        font-size: 16px;
+        list-style-position: outside;
+        padding-left: 0;
+        font-weight: bold;
+        padding-bottom: 1px;
+        padding-left: 19px; }
+        .content-zone .text-zone .content-list-gr-box ol li {
+          margin-bottom: 8px; }
+    .content-zone .text-zone .bottom-text {
+      font-weight: bold; }
+  .content-zone .img-zone {
+    padding-top: 3px; }
+
+@media (max-width: 992px) {
+  .img-zone {
+    display: block;
+    text-align: center;
+    padding-left: 0px; }
+    .img-zone .demo-img {
+      display: inline;
+      width: 100%;
+      height: auto; } }
 
 /*# sourceMappingURL=test.css.map */

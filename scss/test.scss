@@ -135,6 +135,9 @@
                     bottom: 0;
                     margin-top: auto;
                     margin-bottom: auto;
+                    @media(max-width: 386px){
+                        top: -25px;
+                    }
                 }
             }
             ol{
